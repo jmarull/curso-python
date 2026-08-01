@@ -31,6 +31,8 @@ def calcular(a: float, b: float, operacion: str) -> float:
 
 
 def main():
+    print("Hola")
+    
     try:
         a = float(input("Número 1: "))
         b = float(input("Número 2: "))
