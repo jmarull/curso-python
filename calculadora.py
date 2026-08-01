@@ -24,14 +24,14 @@ def calcular(a: float, b: float, operacion: str) -> float:
             return a % b
         case "/":
             if b == 0:
-                raise ValueError("No se puede dividir entre cero")
+                raise ValueError("No se puede dividir entre cero!")
             return a / b
         case "sqrt":
             if a < 0:
-                raise ValueError("No se puede calcular la raíz cuadrada de un número negativo")
+                raise ValueError("No se puede calcular la raíz cuadrada de un número negativo!")
             return a ** 0.5        
         case _:
-            raise ValueError("Operación no válida")     
+            raise ValueError("Operación no válida!")     
 
 
 def main():
